@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="shortcut icon" href="resources/images/news.png" />
+    <title>Covid - News</title>
+    <link type="text/css" rel="stylesheet" href="resources/css/navbar.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link type="text/css" rel="stylesheet" href="resources/css/contato.css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="saibamais.html">Saiba Mais</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+    </div>
+
+    <h2>Covid - News Contato</h2>
+
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="nome">Nome</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Nome">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="assunto">Assunto</label>
+                </div>
+                <div class="col-75">
+                    <select id="assunto" name="assunto">
+              <option value="sugestao">Sugestão</option>
+              <option value="critica">Criticas</option>
+              <option value="outros">Outros</option>
+            </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Mensagem</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Escreva sua Mensagem" style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
